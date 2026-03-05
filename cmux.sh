@@ -16,7 +16,7 @@
 #   cmux update           — Update cmux to the latest version
 #   cmux version          — Show current version
 
-_CMUX_DOWNLOAD_URL="https://github.com/craigsc/cmux/releases/latest/download"
+_CMUX_DOWNLOAD_URL="https://raw.githubusercontent.com/midwire/cmux/main"
 CMUX_VERSION="unknown"
 [[ -f "$HOME/.cmux/VERSION" ]] && CMUX_VERSION="$(<"$HOME/.cmux/VERSION")"
 
